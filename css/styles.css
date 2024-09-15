@@ -132,7 +132,8 @@ section {
   background-color: #2e2f42;
   text-align: center;
   margin: 0 auto;
-  padding: 120px 0;
+  padding: 188px 0;
+  height: 600px;
 }
 
 .h1 {
@@ -168,6 +169,8 @@ section {
   list-style-type: none;
   display: flex;
   gap: 8px;
+  padding: 0px;
+  margin: 0 auto;
 }
 
 .section-one p {
@@ -192,7 +195,9 @@ section {
 .section-two-list {
   list-style-type: none;
   display: flex;
-  gap: 16px;
+  gap: 24px;
+  padding: 0px;
+  margin: 0 auto;
 }
 
 .section-two img {
@@ -214,6 +219,7 @@ section {
   line-height: 2.5em;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .section-three-list {
