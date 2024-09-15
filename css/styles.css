@@ -199,6 +199,7 @@ section {
 .section-two-list {
     list-style-type: none;
     display: flex;
+    gap: 16px;
 }
 
 .section-two img {
@@ -226,6 +227,9 @@ section {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+    padding-left: 0px;
+    gap: 24px;
+    
 }
 
 .section-three img {
