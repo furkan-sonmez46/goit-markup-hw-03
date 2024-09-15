@@ -171,8 +171,10 @@ section {
     background-color: #404BBF;
 }
 
-.section-one li {
+.section-one-list {
     list-style-type: none;
+    display: flex;
+    gap: 8px;
 }
 
 .section-one p {
@@ -194,13 +196,14 @@ section {
     text-align: center;
 }
 
-.section-two li {
+.section-two-list {
     list-style-type: none;
+    display: flex;
 }
 
 .section-two img {
     width: 264px;
-    height: 260px;
+    height: 380px;
 }
 
 .section-two p {
@@ -219,13 +222,15 @@ section {
     text-align: center;
 }
 
-.section-three li {
+.section-three-list {
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .section-three img {
     width: 360px;
-    height: 300px;
+    height: 420px;
 }
 
 .section-three p {
