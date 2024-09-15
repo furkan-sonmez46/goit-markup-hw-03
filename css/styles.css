@@ -1,7 +1,7 @@
 body {
-    width: 1440px;
-    height: 3300px;
-
+    
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: #ffffff;
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -9,19 +9,50 @@ body {
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.03em;
+    
 }
 
 .header {
-    width: 1440px;
     height: 72px;
-    display: flex;
+    border-bottom: 1px solid #E7E9FC;
 }
 
+.container {
+    width: 1158px;
+    max-width: 1440px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-header {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.nav-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+
+
 .logo {
-    width: 115px;
-    height: 24px;
-    text-decoration: none;
-    list-style-type: none;
+        color: #2e2f42;
+        list-style-type: none;
+        font-weight: 500;
+        font-size: 1em;
+        line-height: 24px;
+        initial-letter: 2%;
+        text-decoration: none;
+        margin-right: 76px;
 }
 
 .web-header {
@@ -46,11 +77,14 @@ body {
     color: #2E2F42;
 }
 
-.nav {
+.nav-items {
     list-style-type: none;
+    box-sizing: content-box;
+    display: flex;
+    gap: 40px;
 }
 
-.nav li a {
+.nav-items li a {
     font-family: "Roboto", sans-serif;
     list-style-type: none;
     text-decoration: none;
@@ -61,8 +95,8 @@ body {
     color: #2E2F42;
 }
 
-.nav li:hover a,
-.nav li:focus a {
+.nav-items li:hover a,
+.nav-items li:focus a {
     color: #404bbf;
 }
 
@@ -73,6 +107,8 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5em;
+    display: flex;
+    gap: 40px;
 }
 
 .adres a {
@@ -80,6 +116,7 @@ body {
     list-style-type: none;
     font-style: normal;
     color: #434455;
+
 }
 
 .adres li:hover a,
@@ -96,10 +133,9 @@ body {
 
 .section-hero {
     background-color: #2E2F42;
-    Width: 1440px;
-    Height: 600px;
     text-align: center;
-
+    margin: 0 auto;
+    padding: 120px 0;
 }
 
 .h1 {
@@ -107,9 +143,12 @@ body {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
-    line-height: 3.75em;
+    line-height: 1em;
     letter-spacing: 0.02em;
     text-align: center;
+    margin: 0 auto;
+    max-width: 496px;
+    padding-bottom: 48px;
 }
 
 .order-button {
@@ -195,6 +234,10 @@ body {
 .footer {
     background-color: #2E2F42;
     color: #ffffff;
+}
+
+.container-footer {
+    width: 1158px;
 }
 
 .footer a {
