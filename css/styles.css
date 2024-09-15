@@ -1,280 +1,274 @@
 body {
-    
-    max-width: 1440px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5em;
-    letter-spacing: 0.03em;
-    
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.03em;
 }
 
 .header {
-    height: 72px;
-    border-bottom: 1px solid #E7E9FC;
+  height: 72px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
-    width: 1158px;
-    max-width: 1440px;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0 15px;
+  width: 1158px;
+  max-width: 1440px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .container-header {
-    max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
-
 
 .nav-menu {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-
-
 .logo {
-        color: #2e2f42;
-        list-style-type: none;
-        font-weight: 500;
-        font-size: 1em;
-        line-height: 24px;
-        initial-letter: 2%;
-        text-decoration: none;
-        margin-right: 76px;
+  color: #2e2f42;
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 24px;
+  initial-letter: 2%;
+  text-decoration: none;
+  margin-right: 76px;
 }
 
 .web-header {
-    font-family: "Raleway", sans-serif;  
-    width: 44px;
-    height: 21px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.3125em;
-    letter-spacing: 0.03em;
-    color: #4D5AE5;
+  font-family: "Raleway", sans-serif;
+  width: 44px;
+  height: 21px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3125em;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
 }
 
 .studio-header {
-    font-family: "Raleway", sans-serif;
-    width: 71px;
-    height: 21px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.3125em;
-    letter-spacing: 0.03em;
-    color: #2E2F42;
+  font-family: "Raleway", sans-serif;
+  width: 71px;
+  height: 21px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3125em;
+  letter-spacing: 0.03em;
+  color: #2e2f42;
 }
 
 .nav-items {
-    list-style-type: none;
-    box-sizing: content-box;
-    display: flex;
-    gap: 40px;
+  list-style-type: none;
+  box-sizing: content-box;
+  display: flex;
+  gap: 40px;
 }
 
 .nav-items li a {
-    font-family: "Roboto", sans-serif;
-    list-style-type: none;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5em;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
+  font-family: "Roboto", sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .nav-items li:hover a,
 .nav-items li:focus a {
-    color: #404bbf;
+  color: #404bbf;
 }
 
 .adres {
-    text-decoration: none;
-    list-style-type: none;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5em;
-    display: flex;
-    gap: 40px;
+  text-decoration: none;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5em;
+  display: flex;
+  gap: 40px;
 }
 
 .adres a {
-    text-decoration: none;
-    list-style-type: none;
-    font-style: normal;
-    color: #434455;
-
+  text-decoration: none;
+  list-style-type: none;
+  font-style: normal;
+  color: #434455;
 }
 
 .adres li:hover a,
 .adres li:focus a {
-    color: #404bbf;
+  color: #404bbf;
 }
 
 .title-h3 {
-    color: #2E2F42;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.5em;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5em;
 }
 
 section {
-    padding: 120px 0;
+  padding: 120px 0;
 }
 
 .section-hero {
-    background-color: #2E2F42;
-    text-align: center;
-    margin: 0 auto;
-    padding: 120px 0;
+  background-color: #2e2f42;
+  text-align: center;
+  margin: 0 auto;
+  padding: 120px 0;
 }
 
 .h1 {
-    font-family: "Roboto", sans-serif;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1em;
-    letter-spacing: 0.02em;
-    text-align: center;
-    margin: 0 auto;
-    max-width: 496px;
-    padding-bottom: 48px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1em;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 496px;
+  padding-bottom: 48px;
 }
 
 .order-button {
-    background-color: #4D5AE5;
-    color: #ffffff;
-    width: 169px;
-    height: 56px;
-    cursor: pointer;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  width: 169px;
+  height: 56px;
+  cursor: pointer;
 }
 
 .order-button:hover {
-    background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .order-button:focus {
-    background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .section-one-list {
-    list-style-type: none;
-    display: flex;
-    gap: 8px;
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
 }
 
 .section-one p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5em;
 }
 
 .section-two {
-    background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
 .section-two h2 {
-    color: #2E2F42;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 2.5em;
-    letter-spacing: 0.02em;
-    text-align: center;
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2.5em;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .section-two-list {
-    list-style-type: none;
-    display: flex;
-    gap: 16px;
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
 }
 
 .section-two img {
-    width: 264px;
-    height: 380px;
+  width: 264px;
+  height: 380px;
 }
 
 .section-two p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5em;
-    letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
 }
 
 .section-three h2 {
-    color: #2E2F42;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 2.5em;
-    letter-spacing: 0.02em;
-    text-align: center;
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2.5em;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .section-three-list {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 0px;
-    gap: 24px;
-    
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  gap: 24px;
 }
 
 .section-three img {
-    width: 360px;
-    height: 420px;
+  width: 360px;
+  height: 420px;
 }
 
 .section-three p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5em;
-    letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
 }
 
 .footer {
-    background-color: #2E2F42;
-    color: #ffffff;
+  background-color: #2e2f42;
+  color: #ffffff;
+  height: 312px;
+  padding: 100px;
 }
 
 .container-footer {
-    width: 1158px;
+  width: 1158px;
 }
 
 .footer a {
-    font-family: "Raleway", sans-serif;
-    width: 71px;
-    height: 21px;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.3125em;
-    letter-spacing: 0.03em;
+  font-family: "Raleway", sans-serif;
+  width: 71px;
+  height: 21px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3125em;
+  letter-spacing: 0.03em;
 }
 
 .web {
-    color: #4D5AE5;
+  color: #4d5ae5;
 }
 
 .studio {
-    color: #F4F4FD;
+  color: #f4f4fd;
 }
 
 .footer p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5em;
-    letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
 }
