@@ -167,21 +167,21 @@ body {
     background-color: #404BBF;
 }
 
-.section1 li {
+.section-one li {
     list-style-type: none;
 }
 
-.section1 p {
+.section-one p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5em;
 }
 
-.section2 {
+.section-two {
     background-color: #F4F4FD;
 }
 
-.section2 h2 {
+.section-two h2 {
     color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
@@ -190,23 +190,23 @@ body {
     text-align: center;
 }
 
-.section2 li {
+.section-two li {
     list-style-type: none;
 }
 
-.section2 img {
+.section-two img {
     width: 264px;
     height: 260px;
 }
 
-.section2 p {
+.section-two p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.02em;
 }
 
-.section3 h2 {
+.section-three h2 {
     color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
@@ -215,16 +215,16 @@ body {
     text-align: center;
 }
 
-.section3 li {
+.section-three li {
     list-style-type: none;
 }
 
-.section3 img {
+.section-three img {
     width: 360px;
     height: 300px;
 }
 
-.section3 p {
+.section-three p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5em;
