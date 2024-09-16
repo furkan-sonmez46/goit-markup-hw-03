@@ -10,6 +10,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+img {
+    display: block;
+}
+
 .header {
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
