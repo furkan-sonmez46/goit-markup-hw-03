@@ -234,8 +234,23 @@ section {
 
 .section-two img {
   width: 264px;
-  height: 380px;
+  height: 260px;
 }
+
+.staff {
+    padding: 32px 0;
+}  
+
+.title-h3 {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20 px;
+    line-height: 1.5em;
+    initial-letter: 2%;
+    margin-bottom: 8px;
+}
+    
+
 
 .section-two p {
   font-weight: 400;
@@ -264,7 +279,7 @@ section {
 
 .section-three img {
   width: 360px;
-  height: 420px;
+  height: 300px;
 }
 
 .section-three p {
