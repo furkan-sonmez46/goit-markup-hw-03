@@ -154,6 +154,7 @@ section {
   min-width: 169px;
   height: 56px;
   cursor: pointer;
+  display: block;
   margin: 0 auto;
   border: none;
   border-radius: 4px;
