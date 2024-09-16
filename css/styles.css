@@ -74,14 +74,16 @@ img {
   color: #2e2f42;
 }
 
-.nav-items {
+.nav-list {
   list-style-type: none;
   box-sizing: content-box;
   display: flex;
   gap: 40px;
+  margin: 0 auto;
+  padding: 24px 0;
 }
 
-.nav-items li a {
+.nav-list li a {
   font-family: "Roboto", sans-serif;
   list-style-type: none;
   text-decoration: none;
@@ -92,8 +94,8 @@ img {
   color: #2e2f42;
 }
 
-.nav-items li:hover a,
-.nav-items li:focus a {
+.nav-list li:hover a,
+.nav-list li:focus a {
   color: #404bbf;
 }
 
@@ -139,7 +141,7 @@ section {
   height: 600px;
 }
 
-.h1 {
+.title-h1 {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
   font-weight: 700;
