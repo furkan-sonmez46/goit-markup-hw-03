@@ -44,7 +44,7 @@ body {
   font-weight: 500;
   font-size: 1em;
   line-height: 24px;
-  initial-letter: 2%;
+  initial-letter: 0.02em;
   text-decoration: none;
   margin-right: 76px;
 }
