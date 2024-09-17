@@ -266,7 +266,7 @@ section {
 .title-three {
     color: #2E2F42;
     font-weight: 500;
-    font-size: 20 px;
+    font-size: 100%;
     line-height: 1.5em;
     initial-letter: 2%;
     margin-bottom: 8px;
