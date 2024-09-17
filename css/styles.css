@@ -136,7 +136,7 @@ section {
   height: 600px;
 }
 
-.title-h1 {
+.title-one {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
   font-weight: 700;
@@ -193,7 +193,7 @@ section {
   width: calc((100% - 72px) / 4);
 }
 
-.title-h3 {
+.title-three {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -220,7 +220,7 @@ section {
   text-align: center;
 }
 
-.title-h2 {
+.title-two {
     margin-bottom: 72px;
 }
 
@@ -248,7 +248,7 @@ section {
     padding: 32px 0;
 }  
 
-.title-h3 {
+.title-three {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20 px;
